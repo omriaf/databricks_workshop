@@ -13,10 +13,8 @@ Use these links before and during the live workshop:
 | Resource | Link |
 |---|---|
 | Create a Databricks Free Edition account | [Sign up for Free Edition](https://www.databricks.com/learn/free-edition) |
-| Download the workshop CSV | [Download `bakehouse_suppliers.csv`](https://github.com/omriaf/databricks_workshop/raw/refs/heads/main/data/bakehouse_suppliers.csv) |
-| View the CSV in this repository | [`data/bakehouse_suppliers.csv`](data/bakehouse_suppliers.csv) |
-
-If the CSV opens in the browser instead of downloading, save the page as `bakehouse_suppliers.csv`.
+| Download the workshop CSV | [Download `bakehouse_suppliers.csv`](https://github.com/omriaf/databricks_workshop/releases/download/workshop-v1/bakehouse_suppliers.csv) |
+| Preview the CSV in this repository | [`data/bakehouse_suppliers.csv`](data/bakehouse_suppliers.csv) |
 
 ## Before the workshop
 
