@@ -65,5 +65,3 @@ You can also continue learning from the **Learn** section in your Databricks wor
 
 The file is an export of the Databricks built-in sample table `samples.bakehouse.sales_suppliers`, ordered by `supplierID`. It contains no organizational or customer data.
 
-Dataset provenance: [`glalanne/deltalink`](https://github.com/glalanne/deltalink), pinned source commit [`730d8cdc`](https://github.com/glalanne/deltalink/tree/730d8cdc053b8089aa3cc65b6f0246b4adcf768d), MIT licensed.
-
