@@ -20,3 +20,14 @@ Open a session guide for its preparation steps, workshop links, and optional lea
 Session 1 materials are available now. Workshop materials for Sessions 2–6 will be added to their guides as they are prepared.
 
 Preparation steps, workshop links, datasets, and optional learning resources are provided in each session guide. No Git installation, GitHub account, or repository clone is needed to use these materials.
+
+## Learn more
+
+These resources are optional enrichment and are not required to follow the live exercise:
+
+| Topic | Official documentation |
+|---|---|
+| Free Edition overview | [What is Databricks Free Edition?](https://docs.databricks.com/aws/en/getting-started/free-edition) |
+| Limits and fair usage | [Databricks Free Edition limitations](https://docs.databricks.com/aws/en/getting-started/free-edition-limitations) |
+| Notebook quickstart | [Query and visualize data from a notebook](https://docs.databricks.com/aws/en/getting-started/quick-start) |
+| Table quickstart | [Create your first table and grant privileges](https://docs.databricks.com/aws/en/getting-started/create-table) |
