@@ -16,7 +16,7 @@ Use these links before and during the live workshop:
 |---|---|
 | Create a Databricks Free Edition account | [Sign up for Free Edition](https://www.databricks.com/learn/free-edition) |
 | Download the workshop CSV | [Download `bakehouse_suppliers.csv`](https://github.com/omriaf/databricks_workshop/releases/download/workshop-v1/bakehouse_suppliers.csv) |
-| Preview the CSV in this repository | [`data/bakehouse_suppliers.csv`](../../data/bakehouse_suppliers.csv) |
+| Preview the CSV in this repository | [`data/bakehouse_suppliers.csv`](data/bakehouse_suppliers.csv) |
 
 The **Download** link downloads the CSV file; the preview link displays its contents. No GitHub account, Git installation, or clone is needed.
 
@@ -46,7 +46,7 @@ Return to **Learn** in your workspace to continue practicing. Browse `samples.ba
 
 The homework exercise is being prepared and will be added here.
 
-[Session 2 — SQL Warehouses](../02-sql/README.md) uses the built-in sample tables, so it does not depend on the CSV or table created in this session.
+Find the next session and its materials in the [series overview](../../README.md#sessions).
 
 ## About Databricks Free Edition
 
@@ -67,7 +67,7 @@ These resources are optional enrichment and are not required to follow the live 
 
 ## Dataset
 
-[`data/bakehouse_suppliers.csv`](../../data/bakehouse_suppliers.csv) contains 27 synthetic supplier records and 10 columns:
+[`data/bakehouse_suppliers.csv`](data/bakehouse_suppliers.csv) contains 27 synthetic supplier records and 10 columns:
 
 `supplierID`, `name`, `ingredient`, `continent`, `city`, `district`, `size`, `longitude`, `latitude`, `approved`
 
