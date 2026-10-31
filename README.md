@@ -19,28 +19,4 @@ Open a session guide for its preparation steps, workshop links, and optional lea
 
 Session 1 materials are available now. Workshop materials for Sessions 2–6 will be added to their guides as they are prepared.
 
-## Workshop links
-
-| Resource | Link |
-|---|---|
-| Create your learning environment | [Sign up for Databricks Free Edition](https://www.databricks.com/learn/free-edition) |
-| Start with the first workshop | [Session 1 guide and links](sessions/01-getting-started/README.md#workshop-links) |
-| Download the Session 1 CSV | [Download `bakehouse_suppliers.csv`](https://github.com/omriaf/databricks_workshop/releases/download/workshop-v1/bakehouse_suppliers.csv) |
-
-No Git installation, GitHub account, or repository clone is needed to use these materials. Follow the links in your session guide.
-
-## Learning data
-
-Session 1 teaches file upload using the supplied [synthetic supplier CSV](data/bakehouse_suppliers.csv).
-
-Session 2 and later use the built-in `samples.bakehouse.*` tables, representing a fictional bakery business. Find them in **Catalog → samples → bakehouse** in your Databricks workspace. Later sessions do not depend on the CSV or the table created in Session 1.
-
-## Learn more
-
-Optional learning resources are grouped separately from workshop links in each session guide. You can also continue learning through **Learn** in your Databricks workspace.
-
-- [What is Databricks Free Edition?](https://docs.databricks.com/aws/en/getting-started/free-edition)
-- [Free Edition limitations](https://docs.databricks.com/aws/en/getting-started/free-edition-limitations)
-
-Free Edition is for non-commercial learning and experimentation, with usage quotas and limitations. See the official documentation above for current details.
-
+Preparation steps, workshop links, datasets, and optional learning resources are provided in each session guide. No Git installation, GitHub account, or repository clone is needed to use these materials.
