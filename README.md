@@ -1,67 +1,46 @@
-# Databricks Free Edition Workshop
+# Databricks Workshop Series — From Data to AI Agents
 
-## Session 1 — From sign-up to your first business insight
+Six hands-on sessions in Hebrew, taking you from your first Databricks workspace to governed data, analytics, and AI solutions. This repository is the home for participant materials, with a separate guide and links for each session.
 
-This repository contains the attendee materials for a Hebrew-language, hands-on introduction to Databricks Free Edition.
+The series welcomes individuals, startups, teams, and organizations of every size. No prior Databricks experience is needed for Session 1. No real company data or connection to an organizational system is required; we use synthetic sample data.
 
-No prior Databricks experience is required. The session is suitable for individuals, startups, teams, and organizations of every size.
+## Sessions
+
+Open a session guide for its preparation steps, workshop links, and optional learning resources.
+
+| Session | Date | Topic and session guide |
+|---|---|---|
+| 1 | 3 November 2026 | [Getting Started with Databricks Free Edition: From Sign-Up to Your First Query](sessions/01-getting-started/README.md) |
+| 2 | 17 November 2026 | [SQL Warehouses: Answer Business Questions with Fast, Serverless SQL](sessions/02-sql/README.md) |
+| 3 | 1 December 2026 | [Just Ask Genie: Bring Business Insights with Natural Language](sessions/03-genie/README.md) |
+| 4 | 15 December 2026 | [From Raw to Trusted: Modernize Your Pipelines with Lakeflow & Declarative Pipelines](sessions/04-lakeflow/README.md) |
+| 5 | 29 December 2026 | [Unity Catalog & Governance: Secure, Discover, and Share Your Data with Confidence](sessions/05-governance/README.md) |
+| 6 | 12 January 2027 | [Build Governed AI & Agents on Your Own Company Data](sessions/06-ai-agents/README.md) |
+
+Session 1 materials are available now. Workshop materials for Sessions 2–6 will be added to their guides as they are prepared.
 
 ## Workshop links
 
-Use these links before and during the live workshop:
-
 | Resource | Link |
 |---|---|
-| Create a Databricks Free Edition account | [Sign up for Free Edition](https://www.databricks.com/learn/free-edition) |
-| Download the workshop CSV | [Download `bakehouse_suppliers.csv`](https://github.com/omriaf/databricks_workshop/releases/download/workshop-v1/bakehouse_suppliers.csv) |
-| Preview the CSV in this repository | [`data/bakehouse_suppliers.csv`](data/bakehouse_suppliers.csv) |
+| Create your learning environment | [Sign up for Databricks Free Edition](https://www.databricks.com/learn/free-edition) |
+| Start with the first workshop | [Session 1 guide and links](sessions/01-getting-started/README.md#workshop-links) |
+| Download the Session 1 CSV | [Download `bakehouse_suppliers.csv`](https://github.com/omriaf/databricks_workshop/releases/download/workshop-v1/bakehouse_suppliers.csv) |
 
-## Before the workshop
+No Git installation, GitHub account, or repository clone is needed to use these materials. Follow the links in your session guide.
 
-1. Create your Free Edition account.
-2. Download `bakehouse_suppliers.csv` and keep it in an easy-to-find folder.
-3. Use only the provided synthetic dataset during the exercise.
+## Learning data
 
-No real company data, customer data, credentials, or connection to an organizational system is needed.
+Session 1 teaches file upload using the supplied [synthetic supplier CSV](data/bakehouse_suppliers.csv).
 
-## What we will build
-
-During the workshop, we will:
-
-1. Tour the Databricks workspace.
-2. Upload the supplier CSV.
-3. Create the governed table `workspace.default.bakehouse_suppliers`.
-4. Find the table in Unity Catalog.
-5. Preview the data in a notebook.
-6. Run a business-oriented SQL query.
-7. Visualize the supplier distribution by continent.
-
-The later sessions in the series use the built-in `samples.bakehouse.*` tables, so they do not depend on the table created in this workshop.
-
-## About Databricks Free Edition
-
-Databricks Free Edition is a no-cost environment for learning, experimentation, and prototyping with data and AI. It includes a ready-to-use workspace, serverless compute, default storage, notebooks, SQL, dashboards, pipelines, and many AI capabilities.
-
-Free Edition is quota-limited and intended for non-commercial use. It does not include guaranteed support or an SLA, and some enterprise administration, security, networking, and compute capabilities are unavailable. If a usage quota is exceeded, compute can be paused until the quota resets; the workspace data and settings are not deleted.
+Session 2 and later use the built-in `samples.bakehouse.*` tables, representing a fictional bakery business. Find them in **Catalog → samples → bakehouse** in your Databricks workspace. Later sessions do not depend on the CSV or the table created in Session 1.
 
 ## Learn more
 
-These resources are optional enrichment and are not required to follow the live exercise:
+Optional learning resources are grouped separately from workshop links in each session guide. You can also continue learning through **Learn** in your Databricks workspace.
 
-| Topic | Official documentation |
-|---|---|
-| Free Edition overview | [What is Databricks Free Edition?](https://docs.databricks.com/aws/en/getting-started/free-edition) |
-| Limits and fair usage | [Databricks Free Edition limitations](https://docs.databricks.com/aws/en/getting-started/free-edition-limitations) |
-| Notebook quickstart | [Query and visualize data from a notebook](https://docs.databricks.com/aws/en/getting-started/quick-start) |
-| Table quickstart | [Create your first table and grant privileges](https://docs.databricks.com/aws/en/getting-started/create-table) |
+- [What is Databricks Free Edition?](https://docs.databricks.com/aws/en/getting-started/free-edition)
+- [Free Edition limitations](https://docs.databricks.com/aws/en/getting-started/free-edition-limitations)
 
-You can also continue learning from the **Learn** section in your Databricks workspace.
-
-## Dataset
-
-`data/bakehouse_suppliers.csv` contains 27 synthetic supplier records and 10 columns:
-
-`supplierID`, `name`, `ingredient`, `continent`, `city`, `district`, `size`, `longitude`, `latitude`, `approved`
-
-The file is an export of the Databricks built-in sample table `samples.bakehouse.sales_suppliers`, ordered by `supplierID`. It contains no organizational or customer data.
+Free Edition is for non-commercial learning and experimentation, with usage quotas and limitations. See the official documentation above for current details.
 
