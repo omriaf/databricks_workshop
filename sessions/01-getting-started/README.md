@@ -17,7 +17,7 @@ Use these links before and during the live workshop:
 | Create a Databricks Free Edition account | [Sign up for Free Edition](https://www.databricks.com/learn/free-edition) |
 | Download the workshop CSV | [Download `bakehouse_suppliers.csv`](https://github.com/omriaf/databricks_workshop/releases/download/workshop-v1/bakehouse_suppliers.csv) |
 
-The **Download** link downloads the CSV file; the preview link displays its contents. No GitHub account, Git installation, or clone is needed.
+The **Download** link downloads the CSV file. No GitHub account, Git installation, or clone is needed.
 
 ## Before the workshop
 
@@ -43,7 +43,13 @@ Use the catalog available in your workspace if its name differs from `workspace`
 
 Return to **Learn** in your workspace to continue practicing. Browse `samples.bakehouse` to explore the built-in business data.
 
-The homework exercise is being prepared and will be added here.
+## Additional practice
+
+[Open the additional practice guide](additional-practice/README.md) — about 20 minutes.
+
+Repeat the workflow with two more Bakehouse CSVs: upload the files, inspect your tables, and use **Genie Code** in a notebook to answer two business questions. Compare stores by units sold and by different purchasing customers, create a chart, and check why a returning customer must not be counted as a new person on each purchase row.
+
+The guide includes the download links and all instructions. You do not need to write SQL yourself or bring company data.
 
 Find the next session and its materials in the [series overview](../../README.md#sessions).
 
