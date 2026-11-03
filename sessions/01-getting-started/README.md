@@ -35,9 +35,21 @@ During the workshop, we will:
 4. Find the table and its columns in Unity Catalog.
 5. Preview the data in a notebook.
 6. Run a business-oriented SQL query to count suppliers by continent.
-7. Visualize the supplier distribution with a bar chart.
+7. Use Genie Code to generate the equivalent PySpark code and visualize the supplier distribution with a bar chart.
+8. Upload the same CSV to a Volume and refresh the same table with a repeatable SQL load.
 
 Use the catalog available in your workspace if its name differs from `workspace`.
+
+## Demo notebooks
+
+| Notebook | Use it for |
+|---|---|
+| [01 — Query suppliers](notebooks/01_query_suppliers.sql) | Preview the uploaded table, count suppliers by continent, ask Genie Code for PySpark, and create a chart. |
+| [02 — Load suppliers from a Volume](notebooks/02_load_suppliers_from_volume.sql) | Refresh the same table from the CSV in a Volume, then verify the row count. |
+
+Open each file above and select **Download raw file**. In your Databricks workspace, open **Workspace → Import**, choose **File**, and import the `.sql` file. The notebooks include Markdown explanations and Genie Code prompts.
+
+Start with notebook **01** after uploading the CSV as a table. Before running **02**, create a managed Volume named `upload_files` under `workspace.default` in Catalog and upload the same CSV to it. If your catalog or schema name differs, update the table names and `/Volumes/...` path in the notebooks. The loading step replaces `bakehouse_suppliers` with the CSV contents each time it runs.
 
 ## After the workshop
 
